@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "first_name": "Ahmed",
+      "last_name": "Benali",
+      "email": "ahmed.benali@test.com",
+      "avatar": "https://reqres.in/img/faces/1-image.jpg"
+    },
+    {
+      "id": 2,
+      "first_name": "Sara",
+      "last_name": "El Idrissi",
+      "email": "sara.idrissi@test.com",
+      "avatar": "https://reqres.in/img/faces/2-image.jpg"
+    },
+    {
+      "id": 3,
+      "first_name": "Youssef",
+      "last_name": "Alaoui",
+      "email": "youssef.alaoui@test.com",
+      "avatar": "https://reqres.in/img/faces/3-image.jpg"
+    },
+    {
+      "id": 4,
+      "first_name": "Fatima",
+      "last_name": "Zahra",
+      "email": "fatima.zahra@test.com",
+      "avatar": "https://reqres.in/img/faces/4-image.jpg"
+    },
+    {
+      "id": 5,
+      "first_name": "Omar",
+      "last_name": "Tazi",
+      "email": "omar.tazi@test.com",
+      "avatar": "https://reqres.in/img/faces/5-image.jpg"
+    },
+    {
+      "id": 6,
+      "first_name": "Nadia",
+      "last_name": "Karimi",
+      "email": "nadia.karimi@test.com",
+      "avatar": "https://reqres.in/img/faces/6-image.jpg"
+    },
+    {
+      "id": 7,
+      "first_name": "Hassan",
+      "last_name": "Amrani",
+      "email": "hassan.amrani@test.com",
+      "avatar": "https://reqres.in/img/faces/7-image.jpg"
+    },
+    {
+      "id": 8,
+      "first_name": "Imane",
+      "last_name": "Bennani",
+      "email": "imane.bennani@test.com",
+      "avatar": "https://reqres.in/img/faces/8-image.jpg"
+    }
+  ]
+}

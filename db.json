@@ -1,0 +1,26 @@
+{
+  "personnes": [
+    {
+      "id": "1",
+      "nom": "Ahmed",
+      "tel": "0612345678",
+      "age": 25,
+      "email": "ahmed@gmail.com"
+    },
+    {
+      "id": "2",
+      "nom": "Achraf Ait lahcen",
+      "tel": "0699999990",
+      "age": "22",
+      "email": "achraf@gmail.com"
+    },
+    {
+      "id": "3",
+      "nom": "test",
+      "tel": "0666666666",
+      "age": "24",
+      "email": "test@gmail.com"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

@@ -1,0 +1,118 @@
+/* * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}*/
+
+.calculator {
+  background: #232323;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+  width: 320px;
+}
+
+.display {
+  background: #1a1a1a;
+  color: #fff;
+  font-size: 48px;
+  font-weight: 300;
+  text-align: right;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  overflow: hidden;
+  word-break: break-all;
+} 
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.btn {
+  height: 60px;
+  border: none;
+  border-radius: 30px;
+  font-size: 24px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  background: #505050;
+  color: #fff;
+}
+
+.btn:hover {
+  opacity: 0.8;
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+.btn.operator {
+  background: #ff9500;
+  color: #fff;
+}
+
+.btn.operator:hover {
+  background: #ffaa33;
+}
+
+.btn.equals {
+  background: #ff9500;
+  color: #fff;
+}
+
+.btn.equals:hover {
+  background: #ffaa33;
+}
+
+.btn.zero {
+  grid-column: span 2;
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  /* Garde le centrage flexible */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* Ton super dégradé */
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  font-family: 'Roboto', sans-serif; /* MUI préfère Roboto */
+}
+
+#root {
+  width: 100%;
+  padding: 20px; /* Évite que le formulaire touche les bords sur mobile */
+}
+
+/* On supprime .calculator, .display, .btn car MUI gère cela avec le composant <Paper> */
